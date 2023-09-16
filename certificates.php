@@ -225,7 +225,6 @@ include('header.php');
 
 
 
-
     <div class="modal_win" id="open-modal-win">
       <h4>Помочь в выборе?</h4>
     </div>
