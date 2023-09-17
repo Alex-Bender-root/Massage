@@ -757,7 +757,7 @@ h2 {
   height: 100%;
   background-repeat: repeat-y;
   position: absolute;
-  margin-top: 30%;
+  margin-top: 6%;
   background-image: url(img/certificates/logo.webp);
   background-size: 101% 51%;
   opacity: 0.05;
@@ -788,10 +788,12 @@ h2 {
   justify-self: center;
   text-align: center;
 }
+
 .preview_certific p {
   padding-bottom: 3%;
   font-size: 1.8rem;
 }
+
 .full_card_product {
   display: grid;
   position: relative;
@@ -942,7 +944,155 @@ h2 {
 
 
 
+/* модальное окно, помощь при выборе пк */
 
+.modal_win {
+  display: grid;
+  text-align: center;
+  width: 100%;
+  padding: 7% 1.5%;
+  padding-top: 2%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.modal_win h4 {
+  cursor: pointer;
+  font-size: 3rem;
+  color: #313030;
+  text-shadow: 1px 1px 0.9px #7fa200;
+  font-family: 'SemiBold';
+}
+
+.form_input {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 5% 3%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, .3);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .4s, visibility .4s;
+
+}
+
+.form_input_box {
+  position: relative;
+  max-width: 1000px;
+  min-width: 600px;
+  padding: 5%;
+  z-index: 1;
+  background-color: #fff;
+  box-shadow: 12px 11px 24px 1px rgba(34, 60, 80, 0.2);
+  transform: scale(0);
+  transition: transform .8s;
+  border-radius: 3px;
+}
+
+.form_input_box h2 {
+  color: #444343;
+  font-size: 1.3rem;
+}
+
+@media (max-width:650px) {
+  .form_input_box {
+    min-width: 91vw;
+  }
+}
+
+.form_input_box h2 {
+  padding-bottom: 15px;
+  font-family: 'Regular';
+}
+
+.form_input.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.form_input.open .form_input_box {
+  transform: scale(1);
+}
+
+.close-form-input-modal {
+  background-color: #FFC501;
+
+}
+
+.btn_close-form-input-modal {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  height: 31px;
+  border-radius: 3px;
+  transition: transform .6s, box-shadow .6s;
+}
+
+.btn_close-form-input-modal:hover {
+  transform: rotate(90deg);
+  box-shadow: 1px 2px 7px 4px rgba(34, 60, 80, 0.10);
+}
+
+.modal_win-content form {
+  display: grid;
+}
+
+.form_win_content {
+  margin-bottom: 15px;
+}
+
+.in_com {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+  font-size: 0.9rem;
+  font-family: 'Regular';
+  /* background-color: #000; */
+  color: #000;
+  border: 2px solid #9493934a;
+}
+
+
+.but_form_win_content {
+  background: linear-gradient(6.2deg, rgb(38 102 1 / 91%) 9.86%, rgba(196, 196, 196, 0) 183.1%);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-self: center;
+  font-family: 'Regular';
+  font-size: 1.1rem;
+  transition: all 0.4s;
+}
+
+.but_form_win_content:hover {
+  background-color: #000000b8;
+}
+
+.but_form_win_content p {
+  color: #fff;
+  text-shadow: 0.4px 0.4px 0.4px #000;
+  transition: all 0.2s linear;
+}
+
+/* .but_form_win_content:hover p {
+  text-shadow:none;
+} */
+
+
+/* модальное окно, помощь при выборе пк */
 
 
 
@@ -1051,8 +1201,9 @@ footer {
 .foot a:hover,
 .foot h5:hover,
 .foot p:hover {
-  color: #FFC501;
   transition: all 0.3s linear;
+  color: #000;
+  text-shadow: 1px 0px 1px #000;
 }
 
 .Footer_information {
@@ -1077,17 +1228,18 @@ footer {
 .foot h5 {
   color: #414101;
   font-family: 'SemiBold';
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.8;
-  text-shadow: 0.5px 0.5px 1.5px #494949;
+  text-shadow: 0.3px 0.3px 0.4px #494949
 }
 
 .foot a,
 p {
   color: #414101;
   font-family: 'SRegular';
-  font-size: 0.9rem;
-  text-shadow: 0.3px 0.3px 1.3px #494949;
+  font-size: 1rem;
+  text-shadow: 0.3px 0.3px 0.5px #494949;
+
 }
 
 /* подвал */
@@ -1245,7 +1397,7 @@ p {
     display: none;
   }
 
-  .number2:hover .number1 {
+  .number1 {
     display: none;
   }
 
@@ -1519,287 +1671,8 @@ p {
     margin: 8% 3%;
   }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* модальное окно, помощь при выборе пк */
-
-.modal_win {
-  display: grid;
-  text-align: center;
-  width: 100%;
-  padding: 7% 1%;
-  margin: 0 auto;
-  position: relative;
-}
-
-.modal_win h4 {
-  cursor: pointer;
-  font-size: 2rem;
-  color: #F89627;
-  text-shadow: 0.2px 0.2px 0.2px #000;
-  font-family: 'SemiBold';
-}
-
-.form_input {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  padding: 5% 3%;
-  z-index: 100;
-  background-color: rgba(0, 0, 0, .3);
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  overflow-y: auto;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity .4s, visibility .4s;
-
-}
-
-.form_input_box {
-  position: relative;
-  max-width: 1000px;
-  min-width: 600px;
-  padding: 5%;
-  z-index: 1;
-  background-color: #fff;
-  box-shadow: 12px 11px 24px 1px rgba(34, 60, 80, 0.2);
-  transform: scale(0);
-  transition: transform .8s;
-  border-radius: 7px;
-}
-
-@media (max-width:650px) {
-  .form_input_box {
-    min-width: 400px;
+  .modal_win h4 {
+    font-size: 2.3rem;
   }
-}
-
-@media (max-width:440px) {
-  .form_input_box {
-    min-width: 90vw;
-  }
-}
-
-.form_input_box h2 {
-  padding-bottom: 15px;
-  font-family: 'Regular';
-}
-
-.form_input.open {
-  visibility: visible;
-  opacity: 1;
-}
-
-.form_input.open .form_input_box {
-  transform: scale(1);
-}
-
-.close-form-input-modal {
-  background-color: #FFC501;
 
 }
-
-.btn_close-form-input-modal {
-  border: none;
-  background-color: transparent;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  cursor: pointer;
-  height: 31px;
-  border-radius: 3px;
-  transition: transform .6s, box-shadow .6s;
-}
-
-.btn_close-form-input-modal:hover {
-  transform: rotate(90deg);
-  box-shadow: 1px 2px 7px 4px rgba(34, 60, 80, 0.10);
-}
-
-.modal_win-content form {
-  display: grid;
-}
-
-.form_win_content {
-  margin-bottom: 15px;
-}
-
-.in_com {
-  width: 100%;
-  padding: 10px;
-  border-radius: 4px;
-  outline: none;
-  font-size: 0.9rem;
-  font-family: 'Regular';
-  /* background-color: #000; */
-  color: #000;
-  border: 2px solid #949393e8;
-}
-
-.but_form_win_content {
-  justify-content: center;
-  align-items: center;
-  background-color: #FFC501;
-  color: #000;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  justify-self: center;
-  font-family: 'Regular';
-  font-size: 1.1rem;
-  transition: all 0.4s;
-}
-
-.but_form_win_content:hover {
-  background-color: #000;
-  color: #fff;
-}
-
-
-/* модальное окно, помощь при выборе пк */

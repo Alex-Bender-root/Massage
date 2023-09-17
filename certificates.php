@@ -5,7 +5,7 @@ include('header.php');
 <body>
   <div class="page">
 
-    <div class="certific_page_foto"></div>
+    
 
     <div class="av" id="av_certific">
 
@@ -35,7 +35,7 @@ include('header.php');
 
     <div class="full_card_product">
 
-
+      <div class="certific_page_foto"></div>
 
       <div class="card_product">
 
@@ -204,7 +204,7 @@ include('header.php');
       <div class="content_hm">
         <h4>Доставка сертификатов</h4>
         <h6>ЛУЧШЕЕ РЕШЕНИЕ ДЛЯ ПОДАРКА</h6>
-        <p>Вы всегда можете забрать свой заказ самостоятельно из нашей студии по адресу: г.Балаково ул.Степная 35/3</p>
+        <p>Вы всегда можете забрать свой заказ самостоятельно из нашей студии по адресу: г.Балаково ул.Степная 35/3, либо получить по почте.</p>
       </div>
 
 
@@ -287,9 +287,7 @@ include('header.php');
 
 
 
-
-
-
+    <!-- модальное окно Помощь в выборе -->
     <div class="modal_win" id="open-modal-win">
       <h4>Помочь с выбором?</h4>
     </div>
@@ -315,7 +313,9 @@ include('header.php');
             <div class="form_win_content">
               <textarea class="in_com" id="comment" name="comment" rows="4" placeholder="Комментарий"></textarea>
             </div>
-            <button class="but_form_win_content" type="submit">Получить консультацию</button>
+            <button class="but_form_win_content" type="submit">
+              <p>Получить консультацию</p>
+            </button>
           </form>
         </div>
 
@@ -326,7 +326,7 @@ include('header.php');
 
 
 
-  </div>
+
 </body>
 <?php
 include('footer.php');
