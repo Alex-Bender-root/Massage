@@ -54,12 +54,12 @@ html {
 }
 
 .page h5 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .page p {
-  font-size: 0.9rem;
-  color: #494949;
+  font-size: 1rem;
+  color: #373636;
   text-shadow: none;
 }
 
@@ -137,6 +137,7 @@ background-color: #ffa28233;
   left: 0;
   width: 100%;
   height: 100%;
+  /* background-color: #faf1e8; */
   background-color: #F6EADD;
   z-index: 2;
 }
@@ -380,8 +381,9 @@ background-color: #ffa28233;
 }
 
 .bv_b_desc p {
-  color: #494949;
-  text-shadow: 0.05px 0.05px 0.08px #7fa200;
+  color: #373636;
+  text-shadow: 0.03px 0.03px 0.03px #7fa200;
+  font-size: 1rem;
 }
 
 .bv_b_i {
@@ -400,11 +402,12 @@ background-color: #ffa28233;
 .bx h5 {
   padding-bottom: 3%;
   color: #474747;
-  text-shadow: 0.1px 0.1px 0.1px #7fa200;
+  text-shadow: 0.06px 0.06px 0.06px #7fa200;
 }
 
-
-
+.bx p {
+  text-shadow: 0.03px 0.03px 0.03px #7fa200;
+}
 
 
 
@@ -508,10 +511,60 @@ h2 {
   display: flex;
   position: relative;
   width: 70%;
-  background-color: #F6EADD;
+  background-color: #faf1e8;
   border-radius: 5px;
   padding: 5%;
 }
+
+
+
+.km {
+  display: grid;
+  position: relative;
+  padding: 5% 3%;
+}
+
+.km h3 {
+  text-align: center;
+  font-family: 'PRegular';
+  font-size: 1.6rem;
+  color: #444343;
+  text-shadow: 0.2px 0.2px 0.3px #7fa200;
+  padding-bottom: 3%;
+}
+
+
+.content_km {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-self: center;
+}
+
+.con_km {
+  display: flow;
+  max-width: 280px;
+  margin: 5%;
+  padding: 2%;
+}
+
+.con_km h5 {
+  padding-bottom: 1%;
+  color: #3a3a3a;
+  text-shadow: 0.06px 0.06px 0.06px #7fa200;
+}
+
+.con_km p {
+  text-shadow: 0.03px 0.03px 0.03px #7fa200;
+}
+
+.liner_bot {
+  margin: 3%;
+  border-bottom: 2px solid #858f84b0;
+}
+
+
+
 
 
 
@@ -534,7 +587,7 @@ h2 {
 
 .dv_Preview h4 {
   font-family: 'PRegular';
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   letter-spacing: 1px;
   word-spacing: 2px;
   /* межсловестный интервал */
@@ -564,6 +617,7 @@ h2 {
   display: grid;
   position: relative;
   width: 100%;
+  margin-top: 4%;
 }
 
 .dv_desc {
@@ -1519,6 +1573,10 @@ p {
   .content_hm_f {
     padding: 5% 5%;
   }
+
+  .content_km {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 
@@ -1624,7 +1682,7 @@ p {
   }
 
   .dv_Preview h4 {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
 
   .bv_a p {
@@ -1674,5 +1732,15 @@ p {
   .modal_win h4 {
     font-size: 2.3rem;
   }
+
+  .km {
+    padding: 5% 1%;
+  }
+
+  .con_km {
+    margin: 5% 1%;
+  }
+
+
 
 }

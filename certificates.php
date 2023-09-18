@@ -258,10 +258,7 @@ include('header.php');
     </div>
 
 
-    <div class="km">
-
-    </div>
-
+    
 
 
 
