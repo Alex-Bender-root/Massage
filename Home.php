@@ -21,6 +21,10 @@ include("header.php");
     </div>
 
 
+
+
+
+
     <div class="bv">
 
       <div class="bv_a">
@@ -61,6 +65,10 @@ include("header.php");
       </div>
 
     </div>
+
+
+
+
 
 
     <div class="cv">
@@ -162,6 +170,38 @@ include("header.php");
 
 
 
+
+
+    <div class="lv">
+      <h3>Сертификаты</h3>
+      <h6>Подтверждение нашей высокой квалификации</h6>
+
+      <div class="content_lv">
+
+        <div class="con_lv">
+          <img class="red" src="img/Home/probnik.webp" alt="Лицензия">
+        </div>
+
+        <div class="con_lv">
+          <img class="green" src="img/Home/probnik.webp" alt="Лицензия">
+        </div>
+
+        <div class="con_lv">
+          <img class="black" src="img/Home/probnik.webp" alt="Лицензия">
+        </div>
+
+        <div class="con_lv">
+          <img src="img/Home/probnik.webp" alt="Лицензия">
+        </div>
+
+      </div>
+    </div>
+    <div class="modal">
+      <!-- <div class="modal_con"> -->
+        <img class="modal-content" id="modal-img">
+        <span class="close">&times;</span>
+      <!-- </div> -->
+    </div>
 
 
 

@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width">
   <link rel="shortcut icon" sizes="120x120" href="img/icon_title.PNG" type="image/png">
   <link rel="stylesheet" href="stil.massage.css">
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script defer src="script.massage.js"></script>
 
 </head>
