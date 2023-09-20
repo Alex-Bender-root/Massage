@@ -197,10 +197,8 @@ include("header.php");
       </div>
     </div>
     <div class="modal">
-      <!-- <div class="modal_con"> -->
         <img class="modal-content" id="modal-img">
         <span class="close">&times;</span>
-      <!-- </div> -->
     </div>
 
 
