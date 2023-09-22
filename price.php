@@ -59,9 +59,6 @@ include('header.php');
 
 
 
-
-
-
       <!-- Лицо -->
       <div class="rp_content" id="rp_content_left">
 
@@ -99,10 +96,6 @@ include('header.php');
 
 
 
-
-
-
-
       <!-- руки -->
       <div class="rp_content">
 
@@ -131,11 +124,6 @@ include('header.php');
         </div>
 
       </div>
-
-
-
-
-
 
 
 
@@ -171,11 +159,6 @@ include('header.php');
 
 
 
-
-
-
-
-
       <!-- грудного отдела спины -->
       <div class="rp_content">
 
@@ -204,11 +187,6 @@ include('header.php');
         </div>
 
       </div>
-
-
-
-
-
 
 
 
@@ -244,11 +222,6 @@ include('header.php');
 
 
 
-
-
-
-
-
       <!-- Массаж груди -->
       <div class="rp_content">
 
@@ -277,9 +250,6 @@ include('header.php');
         </div>
 
       </div>
-
-
-
 
 
 
@@ -312,6 +282,166 @@ include('header.php');
 
 
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <h3 id="rp_full_h3_bot">Массаж такой то</h3>
+
+      <!-- Антицеллюлитный массаж -->
+      <div class="rp_content">
+
+        <div class="rp_con_desc">
+          <h2>Антицеллюлитный массаж</h2>
+          <p>Процедура воздействующая на жировые ткани. При механическом давлении клетки адипоциты и гипоциты теряют возможность удерживать жир, который вымывается вместе с лимфой.</p>
+          <span> </span>
+
+          <div class="rp_con_desc-b">
+            <img src="img/prices/dop.webp">
+            <p>Дополнительная слуга - обёртывание + 400р</p>
+          </div>
+
+          <div class="rp_con_desc-b">
+            <img src="img/prices/time.webp">
+            <p>длительность 30 мин</p>
+          </div>
+
+          <div class="rp_con_desc-a">
+            <img src="img/prices/money.webp">
+            <p>стоимость 600 руб</p>
+          </div>
+
+        </div>
+
+        <div class="rp_con_f">
+          <img src="img/prices/1_lip.webp">
+          <div class="rp_con_f-a">
+            <img src="img/prices/content_prices.webp">
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <!-- Лимфодренажный массаж -->
+      <div class="rp_content" id="rp_content_left">
+
+        <div class="rp_con_f">
+          <img src="img/prices/1_lip.webp">
+          <div class="rp_con_f-a">
+            <img src="img/prices/content_prices.webp">
+          </div>
+        </div>
+
+        <div class="rp_con_desc" id="rp_con_desc_left">
+          <h2>Лимфодренажный массаж</h2>
+          <p> Процедура, которая воздействует на лимфатическую систему, отвечающую за очищение организма от токсинов и излишней жидкости.</p>
+          <span> </span>
+
+          <div class="rp_con_desc-b">
+            <img src="img/prices/time.webp">
+            <p>длительность 30 мин</p>
+          </div>
+
+          <div class="rp_con_desc-a">
+            <img src="img/prices/money.webp">
+            <p>стоимость 700 руб</p>
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+
+      <!-- Перкуссионный массаж -->
+      <div class="rp_content">
+
+        <div class="rp_con_desc">
+          <h2>Перкуссионный массаж</h2>
+          <p>Процедура воздействует на триггерные точки – уплотнения в мышцах, которые появляются после нагрузок и вызывают болезненные ощущения, выполняется устройством методом перкуссий – интенсивных постукиваний. </p>
+          <span> </span>
+
+          <div class="rp_con_desc-b">
+            <img src="img/prices/time.webp">
+            <p>длительность 20 мин</p>
+          </div>
+
+          <div class="rp_con_desc-a">
+            <img src="img/prices/money.webp">
+            <p>стоимость 500 руб</p>
+          </div>
+
+        </div>
+
+        <div class="rp_con_f">
+          <img src="img/prices/1_lip.webp">
+          <div class="rp_con_f-a">
+            <img src="img/prices/content_prices.webp">
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <h3 id="rp_full_h3_bot">Массаж медовый-лечебный</h3>
+
+      <div class="rp_med">
+        <p>Медовый массаж стимулирует выработку коллагена, нормализует кровообращение. Это способствует естественному восстановлению кожи, заживлению и постепенному сужению растяжек. Кроме того, процедура препятствует появлению новых полос, укрепляя кожную структуру. Массаж с медом позволяет избавиться от лишних сантиметров в проблемных зонах.</p>
+
+        <div class="med_content">
+          <h2>Медовый массаж спины</h2>
+          <p>700 руб</p>
+          <p>30 минут</p>
+        </div>
+
+        <div class="med_content">
+          <h2>Медовый массаж живота</h2>
+          <p>500 руб</p>
+          <p>30 минут</p>
+        </div>
+
+        <div class="med_content">
+          <h2>Медовый массаж ног</h2>
+          <p>600 руб</p>
+          <p>30 минут</p>
+        </div>
+
+        <div class="med_content">
+          <h2>Медовый массаж рук</h2>
+          <p>400 руб</p>
+          <p>30 минут</p>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+
 
 
 

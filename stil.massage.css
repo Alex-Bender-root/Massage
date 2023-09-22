@@ -1455,6 +1455,34 @@ p {
   padding-right: 3%;
 }
 
+#rp_full_h3_bot {
+  padding-top: 8%;
+}
+
+
+
+
+
+
+
+.rp_med {}
+
+.med_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1%;
+  margin: 2% 0;
+  border-bottom: 2px solid #7c875d91;
+}
+
+.med_content h2 {
+  font-size: 1.2rem;
+  color: #474545;
+  text-shadow: 0.25px 0.25px 0.35px #7fa200;
+  margin: 0;
+  min-width: 50px;
+}
 
 
 
