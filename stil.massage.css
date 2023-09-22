@@ -1465,7 +1465,13 @@ p {
 
 
 
-.rp_med {}
+.rp_med_desc {
+  padding: 0 15%;
+  padding-bottom: 2%;
+  text-wrap: balance;
+  text-align: center;
+
+}
 
 .med_content {
   display: flex;
@@ -1481,9 +1487,16 @@ p {
   color: #474545;
   text-shadow: 0.25px 0.25px 0.35px #7fa200;
   margin: 0;
-  min-width: 50px;
 }
 
+.med_content p {
+  padding-right: 2%;
+}
+
+.med_con_1 {
+  min-width: 24vw;
+  padding-right: 2%;
+}
 
 
 
@@ -1556,8 +1569,9 @@ footer {
 .foot h5:hover,
 .foot p:hover {
   transition: all 0.3s linear;
-  color: #000;
-  text-shadow: 1px 0px 1px #000;
+  color: #2d2d2d;
+  /* text-shadow: 1px 0px 1px #000; */
+  text-decoration: revert;
 }
 
 .Footer_information {
@@ -1593,7 +1607,7 @@ p {
   font-family: 'SRegular';
   font-size: 1rem;
   text-shadow: 0.3px 0.3px 0.5px #494949;
-
+  display: block;
 }
 
 /* подвал */
@@ -1797,6 +1811,9 @@ p {
     padding: 5%;
   }
 
+  .med_con_1 {
+    min-width: 32vw;
+  }
 
 
 }
@@ -1925,6 +1942,14 @@ p {
   #rp_con_desc_left {
     grid-row: 1/2;
   }
+
+  .rp_med_desc {
+    padding: 0 5%;
+  }
+
+  .med_con_1 {
+    min-width: 43vw;
+  }
 }
 
 
@@ -1995,6 +2020,9 @@ p {
     height: 56vh;
   }
 
+  .med_con_1 {
+    min-width: 60vw;
+  }
 
 }
 
@@ -2113,6 +2141,10 @@ p {
 
   #av_prices h1 {
     font-size: 2rem;
+  }
+
+  .rp_med_desc {
+    padding: 5% 0;
   }
 
   .rp_content {
