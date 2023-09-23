@@ -1518,15 +1518,15 @@ p {
 
 }
 
-.xp_com_f img {
-  width: 100%;
-  /* opacity: 0.5; */
-
-}
-
 .xp_com_f_absol {
   position: absolute;
+  width: 100%;
 }
+.xp_com_f_absol img {
+  width: 100%;
+  opacity: 0.9;
+}
+
 
 
 .xp_com_desc {
