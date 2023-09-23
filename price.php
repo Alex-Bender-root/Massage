@@ -435,6 +435,7 @@ include('header.php');
 
       </div>
 
+    </div>
 
 
 
@@ -444,17 +445,56 @@ include('header.php');
 
 
 
-      <h3 id="rp_full_h3_bot">Копмлексные массажи</h3>
-
-      <div class="rp_complex">
 
 
 
+    <div class="xp_complex">
+      <h3>Копмлексные массажи</h3>
+
+      <!-- видео -->
+
+      <div class="xp_com_f">
+        <div class="xp_com_f_absol">
+          <img src="img/header/fon.webp">
+        </div>
+      </div>
+
+      <div class="xp_com_desc">
+
+        <div class="com_desc_i">
+          <h2>КОМПЛЕКС 1</h2>
+          <p>Массаж спины, шеи и поясничного отдела</p>
+
+          <div class="pp">
+            <img src="img/prices/time_w.webp">
+            <p>60 мин </p>
+          </div>
+
+          <div class="pp">
+            <img src="img/prices/money_w.webp" id="w_25p">
+            <p>1000 руб</p>
+          </div>
+        </div>
+
+        <div class="com_desc_i">
+          <h2>КОМПЛЕКС 2</h2>
+          <p>Массаж спины, поясничного отдела, шеи, рук, ног и стоп</p>
+
+          <div class="pp">
+            <img src="img/prices/time_w.webp">
+            <p>90 мин </p>
+          </div>
+
+          <div class="pp">
+            <img src="img/prices/money_w.webp" id="w_25p">
+            <p>2500 руб</p>
+          </div>
+
+        </div>
 
 
 
 
-      
       </div>
 
 
@@ -462,11 +502,20 @@ include('header.php');
 
 
 
-
-
-
-
     </div>
+
+
+    fffbr
+    <br><br><br><br><br><br>br
+    <br>brb
+    <br><br>
+
+
+
+
+
+
+
 
 
 
