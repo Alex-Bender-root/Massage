@@ -1512,6 +1512,9 @@ p {
   color: #6c784a;
   padding-bottom: 5%;
 }
+.xp_com_ful {
+  position: relative;
+}
 
 .xp_com_f {
   position: relative;
@@ -1522,6 +1525,7 @@ p {
   position: absolute;
   width: 100%;
 }
+
 .xp_com_f_absol img {
   width: 100%;
   opacity: 0.9;
@@ -1537,9 +1541,13 @@ p {
 
 .com_desc_i {
   width: 100%;
+  max-width: 500px;
   display: grid;
-  padding: 5% 3%;
+  padding: 5% 5%;
+  padding-bottom: 3%;
   justify-self: center;
+  text-align: center;
+  max-height: 320px;
 }
 
 .com_desc_i p,
@@ -1550,6 +1558,7 @@ h2 {
 
 .com_desc_i h2 {
   padding-bottom: 2%;
+  font-size: 1.4rem;
 }
 
 .com_desc_i img {
@@ -1561,14 +1570,59 @@ h2 {
 
 #w_25p {
   width: 25px;
-  margin-right: 12px;
+  margin-right: 8px;
   height: 26px;
 }
 
 .pp {
   display: flex;
   padding-top: 2%;
+  justify-content: center;
 }
+
+.pp p {
+  font-size: 1.2rem;
+}
+
+#pp_lef {
+  padding-right: 17px;
+}
+
+#bord_bot_w {
+  padding-bottom: 3%;
+  border-bottom: 2px solid #fdfdfd85;
+}
+
+.xp_total_desc {
+  position: relative;
+  width: 100%;
+  padding: 1% 5%;
+}
+
+.xp_total_desc p,
+li {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.xp_total_desc li {
+  padding-top: 5px;
+  list-style-type: disc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1635,6 +1689,10 @@ footer {
   color: #2d2d2d;
   /* text-shadow: 1px 0px 1px #000; */
   text-decoration: revert;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(12, 66, 7);
+  text-decoration-thickness: 1px;
 }
 
 .Footer_information {
