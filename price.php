@@ -455,9 +455,10 @@ include('header.php');
         <div class="xp_com_f_absol">
           <img src="img/header/fon.webp">
         </div>
-      </div>
 
-      <div class="xp_com_ful">
+      </div>
+      
+      <!-- <div class="xp_com_ful"> -->
 
         <div class="xp_com_desc">
 
@@ -504,8 +505,9 @@ include('header.php');
             <li>Нормализация лимфо- и кровотока в организме</li>
           </ul>
         </div>
+      
 
-      </div>
+      <!-- </div> -->
 
     </div>
 
@@ -523,15 +525,7 @@ include('header.php');
 
 
 
-    fffbr
-    <br><br><br><br><br><br>br
-    <br>brb
-    <br><br>
-
-
-
-
-
+  
 
 
 

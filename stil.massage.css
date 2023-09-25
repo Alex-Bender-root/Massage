@@ -1503,7 +1503,8 @@ p {
   display: grid;
   position: relative;
   width: 100%;
-  padding: 5% 0;
+  margin: 5% 0;
+  overflow: hidden;
 }
 
 .xp_complex h3 {
@@ -1512,14 +1513,26 @@ p {
   color: #6c784a;
   padding-bottom: 5%;
 }
-.xp_com_ful {
+
+/* .xp_com_ful {
   position: relative;
-}
+  display: grid;
+  align-self: center;
+} */
 
 .xp_com_f {
   position: relative;
 
 }
+
+
+
+
+
+
+
+
+
 
 .xp_com_f_absol {
   position: absolute;
@@ -1528,8 +1541,22 @@ p {
 
 .xp_com_f_absol img {
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.95;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1547,18 +1574,20 @@ p {
   padding-bottom: 3%;
   justify-self: center;
   text-align: center;
-  max-height: 320px;
 }
 
 .com_desc_i p,
 h2 {
   color: #fff;
   margin: 0;
+  text-shadow: 0.25px 0.25px 0.3px #252523;
 }
 
 .com_desc_i h2 {
   padding-bottom: 2%;
   font-size: 1.4rem;
+  letter-spacing: 1px;
+  text-shadow: 0.4px 0.4px 0.5px #252523;
 }
 
 .com_desc_i img {
@@ -1596,13 +1625,16 @@ h2 {
 .xp_total_desc {
   position: relative;
   width: 100%;
-  padding: 1% 5%;
+  max-width: 1000px;
+  padding: 3% 5%;
+  justify-self: center;
 }
 
 .xp_total_desc p,
 li {
   color: #fff;
   font-size: 1rem;
+  text-shadow: 0.25px 0.25px 0.3px #252523;
 }
 
 .xp_total_desc li {
@@ -1936,6 +1968,14 @@ p {
     min-width: 32vw;
   }
 
+  .com_desc_i {
+    padding: 3% 5%;
+  }
+
+  .xp_total_desc {
+    padding: 1% 7%;
+  }
+
 
 }
 
@@ -2071,6 +2111,32 @@ p {
   .med_con_1 {
     min-width: 43vw;
   }
+
+  .xp_total_desc p,
+  li {
+    color: #373636;
+  }
+
+  .xp_com_f {
+    display: none;
+  }
+
+  .com_desc_i p,
+  h2 {
+    color: #2e2d2d;
+  }
+
+  .com_desc_i h2 {
+    text-shadow: 0.25px 0.25px 0.35px #7fa200;
+  }
+
+  .com_desc_i img {
+    display: none;
+  }
+
+  #bord_bot_w {
+    border-bottom: 2px solid #7c875d91;
+  }
 }
 
 
@@ -2144,6 +2210,8 @@ p {
   .med_con_1 {
     min-width: 60vw;
   }
+
+
 
 }
 
@@ -2276,5 +2344,14 @@ p {
     padding: 5%;
     margin-left: 4%;
   }
+
+  .com_desc_i h2 {
+    font-size: 1.2rem;
+    letter-spacing: 0;
+  }
+
+
+
+
 
 }
