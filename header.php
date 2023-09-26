@@ -7,8 +7,8 @@
   <meta name="keywords" content="ключево слово"> <!--ключевые слова! не более 20 слов, не более 3-х повторов-->
   <meta name="description" content="описание сайта"> <!--описание страницы-->
   <meta name="viewport" content="width=device-width">
-  <link rel="shortcut icon" sizes="120x120" href="img/icon_title.PNG" type="image/png">
-  <link rel="stylesheet" href="stil.massage.css">
+  <link rel="shortcut icon" href="img/header/titl.webp">
+  <link rel=" stylesheet" href="stil.massage.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script defer src="script.massage.js"></script>
 
