@@ -194,7 +194,7 @@ include('header.php');
       <div class="rp_content" id="rp_content_left">
 
         <div class="rp_con_f">
-          <img src="img/prices/1_lip.webp">
+          <img src="img/prices/a6.webp">
           <div class="rp_con_f-a">
             <img src="img/prices/content_prices.webp">
           </div>
@@ -243,7 +243,7 @@ include('header.php');
         </div>
 
         <div class="rp_con_f">
-          <img src="img/prices/1_lip.webp">
+          <img src="img/prices/a7.webp">
           <div class="rp_con_f-a">
             <img src="img/prices/content_prices.webp">
           </div>
@@ -257,7 +257,7 @@ include('header.php');
       <div class="rp_content" id="rp_content_left">
 
         <div class="rp_con_f">
-          <img src="img/prices/1_lip.webp">
+          <img src="img/prices/a8.webp">
           <div class="rp_con_f-a">
             <img src="img/prices/content_prices.webp">
           </div>
@@ -311,7 +311,7 @@ include('header.php');
         </div>
 
         <div class="rp_con_f">
-          <img src="img/prices/1_lip.webp">
+          <img src="img/prices/a9.webp">
           <div class="rp_con_f-a">
             <img src="img/prices/content_prices.webp">
           </div>
@@ -325,7 +325,7 @@ include('header.php');
       <div class="rp_content" id="rp_content_left">
 
         <div class="rp_con_f">
-          <img src="img/prices/1_lip.webp">
+          <img src="img/prices/a10.webp">
           <div class="rp_con_f-a">
             <img src="img/prices/content_prices.webp">
           </div>
@@ -374,7 +374,7 @@ include('header.php');
         </div>
 
         <div class="rp_con_f">
-          <img src="img/prices/1_lip.webp">
+          <img src="img/prices/a11.webp">
           <div class="rp_con_f-a">
             <img src="img/prices/content_prices.webp">
           </div>
