@@ -455,57 +455,66 @@ include('header.php');
         <div class="xp_com_f_absol">
           <img src="img/header/fon.webp">
         </div>
+        <div class="xp_com_f_absol_2">
+          <img src="img/prices/content_prices2.webp">
+        </div>
 
       </div>
-      
+
       <!-- <div class="xp_com_ful"> -->
 
-        <div class="xp_com_desc">
+      <div class="xp_com_desc">
 
-          <div class="com_desc_i">
+        <div class="com_desc_i">
+
+          <div class="com_desc_i_a">
             <h2>КОМПЛЕКС 1</h2>
             <p>Массаж спины, шеи и поясничного отдела</p>
-
-            <div class="pp" id="pp_lef">
-              <img src="img/prices/time_w.webp">
-              <p>60 мин </p>
-            </div>
-
-            <div class="pp" id="bord_bot_w">
-              <img src="img/prices/money_w.webp" id="w_25p">
-              <p>1000 руб</p>
-            </div>
           </div>
 
-          <div class="com_desc_i">
+          <div class="pp" id="pp_lef">
+            <img src="img/prices/time_w.webp">
+            <p>60 мин </p>
+          </div>
+
+          <div class="pp" id="bord_bot_w">
+            <img src="img/prices/money_w.webp" id="w_25p">
+            <p>1000 руб</p>
+          </div>
+        </div>
+
+        <div class="com_desc_i">
+          
+          <div class="com_desc_i_a">
             <h2>КОМПЛЕКС 2</h2>
             <p>Массаж спины, шеи, рук, ног и стоп</p>
+          </div>
 
-            <div class="pp" id="pp_lef">
-              <img src="img/prices/time_w.webp">
-              <p>90 мин </p>
-            </div>
+          <div class="pp" id="pp_lef">
+            <img src="img/prices/time_w.webp">
+            <p>90 мин </p>
+          </div>
 
-            <div class="pp" id="bord_bot_w">
-              <img src="img/prices/money_w.webp" id="w_25p">
-              <p>2500 руб</p>
-            </div>
-
+          <div class="pp" id="bord_bot_w">
+            <img src="img/prices/money_w.webp" id="w_25p">
+            <p>2500 руб</p>
           </div>
 
         </div>
 
-        <div class="xp_total_desc">
-          <p>Cистема общего массажа входит в комплексную терапию для восстановления организма после травм и заболеваний опорно-двигательного аппарата. Методика позволяет добиться следующих положительных результатов:</p>
-          <ul>
-            <li>Снятие мышечного напряжение</li>
-            <li>Восстановление обменных процессов</li>
-            <li>Повышение тонуса мышц</li>
-            <li>Улучшение работы центральной нервной системы</li>
-            <li>Нормализация лимфо- и кровотока в организме</li>
-          </ul>
-        </div>
-      
+      </div>
+
+      <div class="xp_total_desc">
+        <p>Cистема общего массажа входит в комплексную терапию для восстановления организма после травм и заболеваний опорно-двигательного аппарата. Методика позволяет добиться следующих положительных результатов:</p>
+        <ul>
+          <li>Снятие мышечного напряжение</li>
+          <li>Восстановление обменных процессов</li>
+          <li>Повышение тонуса мышц</li>
+          <li>Улучшение работы центральной нервной системы</li>
+          <li>Нормализация лимфо- и кровотока в организме</li>
+        </ul>
+      </div>
+
 
       <!-- </div> -->
 
@@ -525,7 +534,7 @@ include('header.php');
 
 
 
-  
+
 
 
 
