@@ -17,62 +17,6 @@ $(document).ready(function () {
 
 
 
-// Часто задаваемые вопросы
-document.addEventListener('DOMContentLoaded', function () {
-  let coll = document.getElementsByClassName('FAQ');
-  for (let i = 0; i < coll.length; i++) {
-    coll[i].addEventListener('click', function () {
-      this.classList.toggle('active');
-      let content = this.nextElementSibling;
-      if (content.style.maxHeight) {
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + 'px';
-      }
-    });
-  }
-});
-
-
-
-
-
-
-
-
-
-
-
-if (window.location.href.includes('certificates.php')) {
-  // модальное всплывающее окно, формы отправки данных пользователя
-  document.getElementById("open-modal-win").addEventListener("click", function () {
-    document.getElementById("form-input-modal").classList.add("open")
-  })
-  // закрыть модальное окно
-  document.getElementById("close-form-input-modal").addEventListener("click", function () {
-    document.getElementById("form-input-modal").classList.remove("open")
-  })
-  // закрыть модальное окно esc
-  window.addEventListener('keydown', (e) => {
-    if (e.key === "Escape") {
-      document.getElementById("form-input-modal").classList.remove("open")
-    }
-  });
-  // закрыть модальное окно при клике вне его
-  document.querySelector("#form-input-modal .form_input_box").addEventListener('click', event => {
-    event._isClickWithInModal = true;
-  });
-  document.getElementById("form-input-modal").addEventListener('click', event => {
-    if (event._isClickWithInModal) return;
-    event.currentTarget.classList.remove('open');
-  });
-}
-
-
-
-
-
-
 
 
 
@@ -108,4 +52,83 @@ $(document).ready(function () {
     closeModal();
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Часто задаваемые вопросы
+document.addEventListener('DOMContentLoaded', function () {
+  let coll = document.getElementsByClassName('FAQ');
+  for (let i = 0; i < coll.length; i++) {
+    coll[i].addEventListener('click', function () {
+      this.classList.toggle('active');
+      let content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + 'px';
+      }
+    });
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+// if (window.location.href.includes('certificates.php')) {
+// модальное всплывающее окно, формы отправки данных пользователя
+document.getElementById("open-modal-win").addEventListener("click", function () {
+  document.getElementById("form-input-modal").classList.add("open")
+})
+// закрыть модальное окно
+document.getElementById("close-form-input-modal").addEventListener("click", function () {
+  document.getElementById("form-input-modal").classList.remove("open")
+})
+// закрыть модальное окно esc
+window.addEventListener('keydown', (e) => {
+  if (e.key === "Escape") {
+    document.getElementById("form-input-modal").classList.remove("open")
+  }
+});
+// закрыть модальное окно при клике вне его
+document.querySelector("#form-input-modal .form_input_box").addEventListener('click', event => {
+  event._isClickWithInModal = true;
+});
+document.getElementById("form-input-modal").addEventListener('click', event => {
+  if (event._isClickWithInModal) return;
+  event.currentTarget.classList.remove('open');
+});
+// }
+
+
+
+
+
+
+
+
+
+
 

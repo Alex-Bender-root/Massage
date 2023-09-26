@@ -461,7 +461,7 @@ include('header.php');
 
       </div>
 
-  
+
 
       <div class="xp_com_desc">
 
@@ -516,7 +516,7 @@ include('header.php');
       </div>
 
 
-    
+
     </div>
 
 
@@ -527,58 +527,40 @@ include('header.php');
 
 
 
+    <!-- модальное окно Помощь в выборе -->
+    <div class="modal_win" id="open-modal-win">
+      <h4>Помочь с выбором?</h4>
+    </div>
 
+    <div class="form_input" id="form-input-modal">
+      <div class="form_input_box">
+        <button class="btn_close-form-input-modal" id="close-form-input-modal">
+          <img src="img/Modal_Windows/call_request_form/close.svg">
+        </button>
+        <h2>Получить консультацию</h2>
 
+        <div class="modal_win-content">
+          <form>
+            <div class="form_win_content">
+              <input class="in_com" type="text" id="name" name="name" required placeholder="Имя*">
+            </div>
+            <div class="form_win_content">
+              <input class="in_com" type="number" id="phone" name="phone" required placeholder="Телефон*">
+            </div>
+            <div class="form_win_content">
+              <input class="in_com" type="email" id="email" name="email" required placeholder="Email">
+            </div>
+            <div class="form_win_content">
+              <textarea class="in_com" id="comment" name="comment" rows="4" placeholder="Комментарий"></textarea>
+            </div>
+            <button class="but_form_win_content" type="submit">
+              <p>Получить консультацию</p>
+            </button>
+          </form>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div>
+    </div>
 
 
 
