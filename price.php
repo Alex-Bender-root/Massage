@@ -461,7 +461,7 @@ include('header.php');
 
       </div>
 
-      <!-- <div class="xp_com_ful"> -->
+  
 
       <div class="xp_com_desc">
 
@@ -484,7 +484,7 @@ include('header.php');
         </div>
 
         <div class="com_desc_i">
-          
+
           <div class="com_desc_i_a">
             <h2>КОМПЛЕКС 2</h2>
             <p>Массаж спины, шеи, рук, ног и стоп</p>
@@ -516,8 +516,7 @@ include('header.php');
       </div>
 
 
-      <!-- </div> -->
-
+    
     </div>
 
 
