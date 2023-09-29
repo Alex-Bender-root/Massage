@@ -23,7 +23,7 @@ include('header.php');
 
 
 
-    <div class="rp_full">
+    <div class="rp_full" id="zona">
       <h3>Массаж по зонам</h3>
 
 
@@ -448,7 +448,7 @@ include('header.php');
 
 
 
-    <div class="xp_complex">
+    <div class="xp_complex" id="complex">
       <h3>Общий массаж</h3>
 
       <div class="xp_com_f">

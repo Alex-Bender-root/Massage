@@ -199,7 +199,7 @@ include('header.php');
 
     </div>
 
-    <div class="hm">
+    <div class="hm" id="dostav">
 
       <div class="content_hm">
         <h4>Доставка сертификатов</h4>
@@ -216,7 +216,7 @@ include('header.php');
       </div>
 
 
-      <div class="content_hm_f">
+      <div class="content_hm_f" id="klient">
 
         <div class="con_hm_f_a">
           <img src="img/certificates/pr.svg">
@@ -240,45 +240,6 @@ include('header.php');
 
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="jm">
-
-    </div>
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

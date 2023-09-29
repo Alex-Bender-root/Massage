@@ -27,7 +27,7 @@ include("header.php");
 
     <div class="bv">
 
-      <div class="bv_a">
+      <div class="bv_a" id="preim">
         <p>Добро пожаловать в ИНЬ-ЯНЬ</p>
         <h2>Качественный массаж, возвращает молодость и жизненные силы</h2>
       </div>
@@ -114,7 +114,7 @@ include("header.php");
 
 
 
-    <div class="km">
+    <div class="km" id="pokaz">
       <h3>Показания к массажу</h3>
       <h6>ВОССТАНОВИ ЗДОРОВЬЕ</h6>
 
@@ -173,7 +173,7 @@ include("header.php");
 
 
 
-    <div class="lv">
+    <div class="lv" id="diplom">
       <h3>Сертификаты</h3>
       <h6>Подтверждение нашей высокой квалификации </h6>
 
