@@ -6,7 +6,7 @@
     <div class="Footer_Name_company">
       <a href="Home.php">
         <h2>ИНЬ</h2>
-        <img src="img/header/logo.webp" alt="Салон по массажу ИНЬ-ЯНЬ">
+        <img src="img/header/titl.webp" alt="Салон по массажу ИНЬ-ЯНЬ">
         <h2>ЯНЬ</h2>
       </a>
     </div>

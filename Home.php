@@ -198,8 +198,8 @@ include("header.php");
       </div>
     </div>
     <div class="modal">
-        <img class="modal-content" id="modal-img">
-        <span class="close">&times;</span>
+      <img class="modal-content" id="modal-img">
+      <span class="close">&times;</span>
     </div>
 
 
@@ -252,10 +252,10 @@ include("header.php");
 
       <div class="contact_gv">
         <h3>Контакты</h3>
-        <p>Балаково ул. Степная 35/3</p>
-        <a href="tel:+79271211063">
-          <h4>+7-927-121-10-63</h4>
-        </a>
+        <h6>СТУДИЯ МАССАЖА «ИНЬ-ЯНЬ»</h6>
+        <p>г Балаково</p>
+        <p>ул Степная 35/3</p>
+        <h4><a href="tel:+79271211063">+7-927-121-10-63</a></h4>
       </div>
 
 
@@ -277,11 +277,6 @@ include("header.php");
           <button class="but_send" type="submit">ОТПРАВИТЬ</button>
         </form>
       </div>
-
-
-
-
-
 
     </div>
 

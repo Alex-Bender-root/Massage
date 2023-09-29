@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Сборка пк</title>
+  <title>Массаж в Балаково</title>
   <meta charset="utf-8">
   <meta name="keywords" content="ключево слово"> <!--ключевые слова! не более 20 слов, не более 3-х повторов-->
   <meta name="description" content="описание сайта"> <!--описание страницы-->
@@ -21,7 +21,7 @@
 
       <a href="Home.php" class="header_logo">
         <h2>ИНЬ</h2>
-        <img src="img/header/logo.webp" alt="Салон по массажу НИРВАНА">
+        <img src="img/header/titl.webp" alt="Салон по массажу НИРВАНА">
         <h2>ЯНЬ</h2>
       </a>
 
@@ -44,12 +44,12 @@
       <div class="job">
         <div class="connect_header">
           <div class="tg">
-            <a href="#">
+            <a href="https://t.me/+79271211063">
               <img src="img/header/tg.webp" alt="телеграмм">
             </a>
           </div>
           <div class="whats">
-            <a href="#">
+            <a href="https://wa.me/+79271211063">
               <img src="img/header/wh.webp" alt="ватсап">
             </a>
           </div>

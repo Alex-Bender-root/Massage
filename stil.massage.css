@@ -138,7 +138,6 @@ background-color: #ffa28233;
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-color: #faf1e8; */
   background-color: #F6EADD;
   z-index: 2;
 }
@@ -173,10 +172,11 @@ background-color: #ffa28233;
   /* border-radius: 44%; */
   display: block;
   transition: all 1s;
+  padding: 5px;
 }
 
 .header_logo:hover img {
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 
 .header_burger {
@@ -238,20 +238,19 @@ background-color: #ffa28233;
 
 .connect_header img {
   position: relative;
-  width: 34px;
+  width: 31px;
   z-index: 2;
   align-items: center;
   display: flex;
-  opacity: 0.9;
   margin: 0 5px;
   transform: scale(0.95, 0.95);
   transition: all 0.3s;
-  opacity: 0.85;
+  opacity: 0.75;
 }
 
 .connect_header img:hover {
   transform: scale(1.03, 1.03);
-  opacity: 1;
+  opacity: 0.85;
 }
 
 
@@ -797,10 +796,11 @@ h2 {
 
 .contact_gv {
   justify-self: center;
-  align-self: start;
+  align-self: center;
   width: 100%;
   height: 65%;
-  display: grid;
+  display: flow;
+  text-align: center;
 }
 
 .contact_gv h3 {
@@ -810,34 +810,38 @@ h2 {
   text-shadow: 0.1px 0.1px 0.15px #7fa200;
   letter-spacing: 2px;
   padding: 5% 3%;
-  padding-bottom: 0;
-  justify-self: center;
-  align-self: center;
+  padding-bottom: 1%;
 }
+
+.contact_gv h6 {
+  color: #6c784a;
+  font-family: 'SRegular';
+  font-size: 0.9rem;
+  padding-bottom: 3%;
+  text-wrap: balance;
+}
+
 
 .contact_gv p {
   font-family: 'PRegular';
   font-size: 1.2rem;
   color: #313131;
   text-shadow: 0.1px 0.1px 0.15px #7fa200;
-  padding: 3% 3%;
-  justify-self: center;
-  align-self: end;
+  padding: 1.5% 3%;
 }
 
 .contact_gv a {
   justify-self: center;
   width: 100%;
   display: grid;
+  color: #313131;
 }
 
 .contact_gv h4 {
   font-family: 'PRegular';
   font-size: 1.2rem;
-  color: #313131;
   text-shadow: 0.05px 0.05px 0.08px #7fa200;
   padding: 3% 3%;
-  justify-self: center;
 }
 
 .form-container {
@@ -1644,25 +1648,73 @@ li {
   list-style-type: disc;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* price услуги и цены*/
 
 
+
+
+
+
+
+/* контакты */
+#page_contact {
+  margin-top: 100px;
+}
+
+.content_contact_gv_ic {
+  display: inline-flex;
+}
+
+.content_contact_gv_ic img {
+  width: 100%;
+}
+
+.tg_gv,
+.whats_gv {
+  width: 33px;
+  margin: 7px;
+}
+
+.cf {
+  display: grid;
+  padding: 5% 20%;
+}
+
+.cf h4 {
+  font-family: 'PRegular';
+  font-size: 2rem;
+  color: #313131;
+  text-shadow: 0.2px 0.2px 0.3px #7fa200;
+  letter-spacing: 1.5px;
+  padding-bottom: 3%;
+}
+
+.content_cf {
+  padding: 3% 0;
+  border-bottom: 2px solid #7c875d91;
+}
+
+.content_cf h6 {
+  color: #6c784a;
+  font-family: 'SRegular';
+  font-size: 1.1rem;
+  padding-bottom: 3%;
+  text-wrap: balance;
+}
+.сv {
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+/* контакты */
 
 
 
@@ -1695,12 +1747,12 @@ footer {
 }
 
 .Footer_Name_company img {
-  width: 80px;
+  width: 40px;
   transition: all 1s;
 }
 
 .Footer_Name_company:hover img {
-  transform: rotate(90deg);
+  transform: rotate(180deg);
 }
 
 .Footer_Name_company h2 {
@@ -1788,6 +1840,7 @@ p {
 
   .header_logo img {
     width: 38px;
+    padding: 2px;
   }
 
   .header_burger {
@@ -1952,9 +2005,17 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .contact_gv {
+    height: 100%;
+  }
+
   .form-container {
     margin-top: 5%;
     padding-right: 0;
+  }
+
+  .form-container form {
+    min-width: 70vw;
   }
 
   .content_lv {
@@ -2043,7 +2104,7 @@ p {
   }
 
   .form-container form {
-    min-width: 65vw;
+    min-width: 75vw;
     min-height: 0;
     height: 64vh;
   }
@@ -2130,6 +2191,13 @@ p {
   .xp_com_f_absol_2 {
     display: grid;
   }
+
+.cf {
+  padding: 5% 10%;
+}
+.Footer_Name_company img {
+  width: 33px;
+}
 
 }
 
@@ -2352,9 +2420,10 @@ p {
   #w_25p {
     margin-top: 5%;
   }
-.xp_total_desc {
-  padding-bottom: 5%;
-}
+
+  .xp_total_desc {
+    padding-bottom: 5%;
+  }
 
 
 
