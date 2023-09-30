@@ -528,7 +528,7 @@ include('header.php');
 
 
     <!-- модальное окно Помощь в выборе -->
-    <div class="modal_win" id="open-modal-win">
+    <!-- <div class="modal_win" id="open-modal-win">
       <h4>Помочь с выбором?</h4>
     </div>
 
@@ -560,7 +560,7 @@ include('header.php');
         </div>
 
       </div>
-    </div>
+    </div> -->
 
 
 

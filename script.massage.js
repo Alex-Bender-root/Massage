@@ -3,11 +3,10 @@
 $(document).ready(function () {
   $('.header_burger').click(function (event) {
     $('.header_burger,.header_menu').toggleClass('active');
-    $('body').toggleClass('lock');   // этим мы убираем прокрутку при открытом меню
+    $('body').toggleClass('lock');   
   });
 });
-// $(".connect_img, .connect_icon").hover(function(event){          // отображение иконок при наведении на другой див
-// $(".connect_icon_inside img").css({"margin-right":"0px","opacity": "0.5","transition": "all 3s ease"}); //так правильно записывать несколько условий в одной строчки
+
 
 
 
@@ -23,7 +22,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  // Отображение изображения в модальном окне
+  // Отображение изображения(сертификатов) в модальном окне
   $('.con_lv img').click(function () {
     let src = $(this).attr('src');
     $('#modal-img').attr('src', src);
@@ -54,38 +53,6 @@ $(document).ready(function () {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Часто задаваемые вопросы
-document.addEventListener('DOMContentLoaded', function () {
-  let coll = document.getElementsByClassName('FAQ');
-  for (let i = 0; i < coll.length; i++) {
-    coll[i].addEventListener('click', function () {
-      this.classList.toggle('active');
-      let content = this.nextElementSibling;
-      if (content.style.maxHeight) {
-        content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.scrollHeight + 'px';
-      }
-    });
-  }
-});
 
 
 
