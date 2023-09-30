@@ -63,7 +63,7 @@ include('header.php');
     </div>
 
 
-    <div class="сv">
+    <div class="pj">
 
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2171.444373496988!2d47.84075343252677!3d52.02462663680795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x416b8eaf673e3e79%3A0x44cfdbd80bf52002!2z0YPQuy4g0KHRgtC10L_QvdCw0Y8sINCR0LDQu9Cw0LrQvtCy0L4sINCh0LDRgNCw0YLQvtCy0YHQutCw0Y8g0L7QsdC7LiwgNDEzODYz!5e0!3m2!1sru!2sru!4v1694724946581!5m2!1sru!2sru" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 

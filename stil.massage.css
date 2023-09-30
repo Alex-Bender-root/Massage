@@ -1023,10 +1023,13 @@ h2 {
   grid-row: 299/300;
 }
 
+.card_but a {
+  width: 100%;
+}
 .card_but button {
-  cursor: pointer;
   width: 100%;
   margin: 5% 0;
+  cursor: pointer;
   background: linear-gradient(6.2deg, rgb(38 102 1 / 80%) 9.86%, rgba(196, 196, 196, 0) 183.1%);
   padding: 2%;
   color: #fff;
@@ -1106,48 +1109,6 @@ h2 {
 
 
 /* certificates  */
-
-
-
-
-
-/* prices */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* prices */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1304,28 +1265,6 @@ h2 {
 
 
 /* модальное окно, помощь при выборе пк */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1525,14 +1464,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
 .xp_com_f_absol {
   position: absolute;
   width: 100%;
@@ -1552,18 +1483,6 @@ p {
   width: 100%;
   opacity: 0.95;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .xp_com_desc {
@@ -1705,13 +1624,15 @@ li {
   padding-bottom: 3%;
   text-wrap: balance;
 }
-.сv {
+.pj {
   width: 100%;
   margin-top: 1%;
   margin-bottom: 5%;
 }
 
-
+.pj iframe{
+  box-shadow: 0px 3px 28px rgb(0 0 0 / 12%);
+}
 
 
 
