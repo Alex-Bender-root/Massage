@@ -591,7 +591,7 @@ h2 {
 }
 
 .content_lv {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   display: grid;
   width: 100%;
 }
@@ -1977,9 +1977,6 @@ p {
     min-width: 70vw;
   }
 
-  .content_lv {
-    grid-template-columns: 1fr 1fr;
-  }
 
   .con_lv {
     margin: 0;
@@ -2091,6 +2088,10 @@ p {
 
   .content_km {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .content_lv {
+    grid-template-columns: 1fr;
   }
 
   .preview_certific {
@@ -2206,9 +2207,6 @@ p {
     width: 100%;
   }
 
-  .content_lv {
-    grid-template-columns: 1fr;
-  }
 
   .con_lv img {
     padding: 0;

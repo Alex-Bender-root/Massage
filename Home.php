@@ -180,20 +180,13 @@ include("header.php");
       <div class="content_lv">
 
         <div class="con_lv">
-          <img class="red" src="img/Home/probnik.webp" alt="Лицензия">
+          <img  src="img/Home/sertifik1.webp" alt="Лицензия">
         </div>
 
         <div class="con_lv">
-          <img class="green" src="img/Home/probnik.webp" alt="Лицензия">
+          <img  src="img/Home/sertifik2.webp" alt="Лицензия">
         </div>
 
-        <div class="con_lv">
-          <img class="black" src="img/Home/probnik.webp" alt="Лицензия">
-        </div>
-
-        <div class="con_lv">
-          <img src="img/Home/probnik.webp" alt="Лицензия">
-        </div>
 
       </div>
     </div>
@@ -257,7 +250,7 @@ include("header.php");
         <h4><a href="tel:+79271211063">+7-927-121-10-63</a></h4>
       </div>
 
-     
+
       <div class="form-container">
         <form id="myForm">
           <div class="form_question">
