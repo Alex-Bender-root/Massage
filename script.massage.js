@@ -3,7 +3,7 @@
 $(document).ready(function () {
   $('.header_burger').click(function (event) {
     $('.header_burger,.header_menu').toggleClass('active');
-    $('body').toggleClass('lock');   
+    $('body').toggleClass('lock');
   });
 });
 
@@ -68,7 +68,7 @@ function sendMessage() {
   const comment = document.getElementById('comment').value;
 
   // Формируем сообщение для WhatsApp
-  const message = `${name}  ${phone} Вопрос: ${comment}`;
+  const message = `${name}\n${phone}\nВопрос: ${comment}`;
 
   // Ссылка для отправки на WhatsApp
   const whatsappLink = `https://wa.me/+79271211063/?text=${encodeURIComponent(message)}`;
@@ -93,7 +93,8 @@ function sendMessage() {
 
 
 // if (window.location.href.includes('certificates.php')) {
-// модальное всплывающее окно, формы отправки данных пользователя
+
+// модальное всплывающее окно, формы отправки вопроса пользователя
 document.getElementById("open-modal-win").addEventListener("click", function () {
   document.getElementById("form-input-modal").classList.add("open")
 })
@@ -115,13 +116,29 @@ document.getElementById("form-input-modal").addEventListener('click', event => {
   if (event._isClickWithInModal) return;
   event.currentTarget.classList.remove('open');
 });
+
+// Получаем кнопку "Получить консультацию" в модальном окне
+const sendWhatsAppButton = document.getElementById("sendWhatsAppButton");
+
+// Обработчик события для клика на кнопке "Получить консультацию"
+sendWhatsAppButton.addEventListener("click", function () {
+  // Получаем значения полей формы в модальном окне
+  const name = encodeURIComponent(document.getElementById('name').value);
+  const phone = encodeURIComponent(document.getElementById('phone').value);
+  const email = encodeURIComponent(document.getElementById('email').value);
+  const comment = encodeURIComponent(document.getElementById('comment').value);
+
+  // Формируем сообщение для WhatsApp
+  const message = `${name}%0A${phone}%0A${email}%0AКомментарий: ${comment}`;
+
+  // Ссылка для отправки на WhatsApp
+  const whatsappLink = `https://wa.me/+79271211063/?text=${message}`;
+
+  // Открываем ссылку в новой вкладке
+  window.open(whatsappLink);
+});
+
 // }
-
-
-
-
-
-
 
 
 

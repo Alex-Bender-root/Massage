@@ -13,7 +13,7 @@
     <div class="Footer_information">
       <div class="foot">
         <h5>Адрес</h5>
-        <p>Пн-Вск 10:00 - 20:00</p>
+        <p>Пн-Вск 10:00 - 21:00</p>
         <p><a href="https://yandex.ru/maps/11143/balakovo/?ll=47.841406%2C52.024534&mode=whatshere&whatshere%5Bpoint%5D=47.841144%2C52.024853&whatshere%5Bzoom%5D=18.56&z=18.56">Саратовская обл <br>г.Балаково ул<br>степная 35/3</a></p>
       </div>
       <div class="foot" id="news">

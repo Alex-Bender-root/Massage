@@ -258,15 +258,13 @@ include('header.php');
 
 
     <!-- модальное окно Помощь в выборе -->
-    <!-- <div class="modal_win" id="open-modal-win">
+    <div class="modal_win" id="open-modal-win">
       <h4>Помочь с выбором?</h4>
     </div>
 
     <div class="form_input" id="form-input-modal">
       <div class="form_input_box">
-        <button class="btn_close-form-input-modal" id="close-form-input-modal">
-          <img src="img/Modal_Windows/call_request_form/close.svg">
-        </button>
+        <button class="btn_close-form-input-modal" id="close-form-input-modal"></button>
         <h2>Получить консультацию</h2>
 
         <div class="modal_win-content">
@@ -283,14 +281,16 @@ include('header.php');
             <div class="form_win_content">
               <textarea class="in_com" id="comment" name="comment" rows="4" placeholder="Комментарий"></textarea>
             </div>
-            <button class="but_form_win_content" type="submit">
+            <button class="but_form_win_content" type="submit" id="sendWhatsAppButton">
               <p>Получить консультацию</p>
             </button>
           </form>
         </div>
 
       </div>
-    </div> -->
+    </div>
+
+
 
   </div>
 
