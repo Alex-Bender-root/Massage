@@ -60,6 +60,34 @@ $(document).ready(function () {
 
 
 
+// форма остались вопросы
+function sendMessage() {
+  // Получаем значения полей формы
+  const name = document.getElementById('name').value;
+  const phone = document.getElementById('phone').value;
+  const comment = document.getElementById('comment').value;
+
+  // Формируем сообщение для WhatsApp
+  const message = `${name}  ${phone} Вопрос: ${comment}`;
+
+  // Ссылка для отправки на WhatsApp
+  const whatsappLink = `https://wa.me/+79271211063/?text=${encodeURIComponent(message)}`;
+
+  // Перенаправляем пользователя на WhatsApp
+  window.location.href = whatsappLink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

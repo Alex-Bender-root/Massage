@@ -247,7 +247,6 @@ include("header.php");
 
 
     <!-- остались вопросы? -->
-
     <div class="gv">
 
       <div class="contact_gv">
@@ -258,10 +257,9 @@ include("header.php");
         <h4><a href="tel:+79271211063">+7-927-121-10-63</a></h4>
       </div>
 
-
-
+     
       <div class="form-container">
-        <form>
+        <form id="myForm">
           <div class="form_question">
             <h5>Остались вопросы?</h5>
           </div>
@@ -274,9 +272,15 @@ include("header.php");
           <div class="form-group">
             <textarea class="input_comment textarea_comment" id="comment" name="comment" rows="4" placeholder="Ваш вопрос"></textarea>
           </div>
-          <button class="but_send" type="submit">ОТПРАВИТЬ</button>
+          <button class="but_send" type="button" onclick="sendMessage()">ОТПРАВИТЬ</button>
         </form>
       </div>
+
+
+
+
+
+
 
     </div>
 
