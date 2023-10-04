@@ -4,7 +4,7 @@
 
   <div class="Footer_information_general">
     <div class="Footer_Name_company">
-      <a href="Home.php">
+      <a href="index.php">
         <h2>ИНЬ</h2>
         <img src="img/header/titl.webp" alt="Салон по массажу ИНЬ-ЯНЬ">
         <h2>ЯНЬ</h2>
@@ -18,9 +18,9 @@
       </div>
       <div class="foot" id="news">
         <h5>О нас</h5>
-        <p><a href="Home.php#preim">Наши преимущества</a></p>
-        <p><a href="Home.php#pokaz">Показания к массажу</a></p>
-        <p><a href="Home.php#diplom">Дипломы</a></p>
+        <p><a href="index.php#preim">Наши преимущества</a></p>
+        <p><a href="index.php#pokaz">Показания к массажу</a></p>
+        <p><a href="index.php#diplom">Дипломы</a></p>
       </div>
       <div class="foot" id="buyers">
         <h5>Сертификаты</h5>

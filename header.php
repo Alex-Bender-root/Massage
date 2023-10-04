@@ -19,7 +19,7 @@
 
 
 
-      <a href="Home.php" class="header_logo">
+      <a href="index.php" class="header_logo">
         <h2>ИНЬ</h2>
         <img src="img/header/titl.webp" alt="Салон по массажу НИРВАНА">
         <h2>ЯНЬ</h2>
@@ -34,7 +34,7 @@
       </div>
       <nav class="header_menu">
         <ul class="header_list">
-          <li><a href="Home.php" class="header_link">О нас</a></li>
+          <li><a href="index.php" class="header_link">О нас</a></li>
           <li><a href="certificates.php" class="header_link">Сертификаты</a></li>
           <li><a href="price.php" class="header_link">Услуги и цены</a></li>
           <li><a href="contact.php" class="header_link">Контакты</a></li>
