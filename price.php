@@ -37,12 +37,12 @@ include('header.php');
 
           <div class="rp_con_desc-b">
             <img src="img/prices/time.webp">
-            <p>длительность 20 мин</p>
+            <p>длительность 30 мин</p>
           </div>
 
           <div class="rp_con_desc-a">
             <img src="img/prices/money.webp">
-            <p>стоимость 300 руб</p>
+            <p>стоимость 500 руб</p>
           </div>
 
         </div>
@@ -479,7 +479,7 @@ include('header.php');
 
           <div class="pp" id="bord_bot_w">
             <img src="img/prices/money_w.webp" id="w_25p">
-            <p>1000 руб</p>
+            <p>1200 руб</p>
           </div>
         </div>
 
