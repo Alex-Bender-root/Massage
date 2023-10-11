@@ -7,8 +7,8 @@
   <meta name="keywords" content="Массаж в Балаково, профессиональные массажисты, медицинский массаж в балаково, антицеллюлитный,  лечебный, спортивный, массажная терапия"> <!--ключевые слова! не более 20 слов, не более 3-х повторов-->
   <meta name="description" content="Массаж в городе Балалково. Подарочные сертификаты на массаж. Виды массажа которые оказываем: шейно-воротниковая зона, лица, рук, ног и стоп, спины, поясници, груди, живота, антицеллюлитный, лимфодренажный, перкуссионный, медовый, комплексный"> <!--описание страницы-->
   <meta name="viewport" content="width=device-width">
-  <link rel="shortcut icon" href="img/header/titl.webp">
-  <link rel=" stylesheet" href="stil.massage.css">
+  <link rel="shortcut icon" href="img/header/titl.webp" type="image/webp">
+  <link rel="stylesheet" href="stil.massage.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script defer src="script.massage.js"></script>
 
