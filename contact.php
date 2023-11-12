@@ -45,7 +45,7 @@ include('header.php');
           <div class="form-group">
             <textarea class="input_comment textarea_comment" id="comment" name="comment" rows="4" placeholder="Ваш вопрос"></textarea>
           </div>
-          <button class="but_send" type="button" onclick="sendMessage()">ОТПРАВИТЬ</button>
+          <button class="but_send" type="button" onclick="dispatch_wh()">ОТПРАВИТЬ</button>
         </form>
       </div>
 

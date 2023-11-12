@@ -61,21 +61,25 @@ $(document).ready(function () {
 
 
 // форма остались вопросы
-function sendMessage() {
+function dispatch_wh() {
   // Получаем значения полей формы
   const name = document.getElementById('name').value;
   const phone = document.getElementById('phone').value;
   const comment = document.getElementById('comment').value;
 
   // Формируем сообщение для WhatsApp
-  const message = `${name}\n${phone}\nВопрос: ${comment}`;
+  const dis_wh = `${name}\n${phone}\nВопрос: ${comment}`;
 
   // Ссылка для отправки на WhatsApp
-  const whatsappLink = `https://wa.me/+79271211063/?text=${encodeURIComponent(message)}`;
+  const whatsappLink = `https://wa.me/+79271211063/?text=${encodeURIComponent(dis_wh)}`;
 
   // Перенаправляем пользователя на WhatsApp
   window.location.href = whatsappLink;
 }
+
+
+
+
 
 
 
@@ -144,3 +148,63 @@ sendWhatsAppButton.addEventListener("click", function () {
 
 
 
+
+
+
+
+
+
+
+
+
+
+// // Получите токен бота и ID чата
+// const botToken = '6398838927:AAEklFXotRaATAyH9uSkf9erGl5WHGU_3nQ';
+// const chatId = '-1002052344345';
+
+// // Функция для отправки сообщения в Telegram
+// function dispatch_tg(text) {
+//   const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
+//   const data = {
+//     chat_id: chatId,
+//     text: text,
+//   };
+
+//   // Отправляем POST-запрос на сервер Telegram
+//   fetch(url, {
+//     method: 'POST',
+//     headers: {
+//       'Content-Type': 'application/json',
+//     },
+//     body: JSON.stringify(data),
+//   })
+//   //   .then(response => response.json())
+//   //   .then(result => {
+//   //     alert('Сообщение успешно отправлено:', result);
+//   //   })
+//   // alert.catch(error => {
+//   //   alert.error('Ошибка при отправке сообщения:', error);
+//   // });
+// }
+
+// // Получаем кнопку по ID
+// const sendButton = document.getElementById('sendButton');
+
+// // Добавляем обработчик события при нажатии на кнопку
+// sendButton.addEventListener('click', () => {
+//   // Получаем значения полей формы
+//   const name = document.getElementById('name');
+//   const phone = document.getElementById('phone');
+//   const comment = document.getElementById('comment');
+
+//   // Формируем сообщение для отправки
+//   const dis_tg = `Имя: ${name.value}\nТелефон: ${phone.value}\nВопрос: ${comment.value}`;
+
+//   // Отправляем сообщение в Telegram
+//   dispatch_tg(dis_tg);
+
+//   // Очищаем поля формы
+//   name.value = '';
+//   phone.value = '';
+//   comment.value = '';
+// });
