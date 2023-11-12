@@ -180,11 +180,11 @@ include("header.php");
       <div class="content_lv">
 
         <div class="con_lv">
-          <img  src="img/Home/sertifik1.webp" alt="Лицензия">
+          <img src="img/Home/sertifik1.webp" alt="Лицензия">
         </div>
 
         <div class="con_lv">
-          <img  src="img/Home/sertifik2.webp" alt="Лицензия">
+          <img src="img/Home/sertifik2.webp" alt="Лицензия">
         </div>
 
 
@@ -257,7 +257,7 @@ include("header.php");
             <h5>Остались вопросы?</h5>
           </div>
           <div class="form-group">
-            <input class="input_comment" type="text" id="name"  placeholder="Имя">
+            <input class="input_comment" type="text" id="name" placeholder="Имя">
           </div>
           <div class="form-group">
             <input class="input_comment" type="number" id="phone" placeholder="Телефон">
@@ -265,9 +265,7 @@ include("header.php");
           <div class="form-group">
             <textarea class="input_comment textarea_comment" id="comment" rows="4" placeholder="Ваш вопрос"></textarea>
           </div>
-          <!-- <a href="contact.php"> -->
-          <button id="sendButton" class="but_send" type="button">ОТПРАВИТЬ</button>
-          <!-- </a> -->
+          <button class="but_send" type="button" onclick="dispatch_wh()">ОТПРАВИТЬ</button>
         </form>
       </div>
 
