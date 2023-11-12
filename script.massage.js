@@ -63,18 +63,22 @@ $(document).ready(function () {
 // форма остались вопросы
 function dispatch_wh() {
   // Получаем значения полей формы
-  const name = document.getElementById('name').value;
-  const phone = document.getElementById('phone').value;
-  const comment = document.getElementById('comment').value;
+  const name = document.getElementById('name');
+  const phone = document.getElementById('phone');
+  const comment = document.getElementById('comment');
 
   // Формируем сообщение для WhatsApp
-  const dis_wh = `${name}\n${phone}\nВопрос: ${comment}`;
+  const dis_wh = `${name.value}\n${phone.value}\nВопрос: ${comment.value}`;
 
   // Ссылка для отправки на WhatsApp
   const whatsappLink = `https://wa.me/+79271211063/?text=${encodeURIComponent(dis_wh)}`;
 
   // Перенаправляем пользователя на WhatsApp
   window.location.href = whatsappLink;
+
+  name.value = '';
+  phone.value = '';
+  comment.value = '';
 }
 
 
